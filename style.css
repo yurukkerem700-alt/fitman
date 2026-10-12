@@ -12,7 +12,7 @@ label{display:block;font-size:13px;color:var(--mut);margin-bottom:6px}
 select,input[type=text],button{font:inherit}
 select,input[type=text]{width:100%;background:#0f1115;color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:10px}
 input[type=range]{width:100%;accent-color:var(--ac)}
-.btn{background:var(--ac);color:#111;border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer}
+.btn{background:var(--ac);color:#111;border:0;border-radius:10px;padding:10px 14px;font-weight:700;cursor:pointer;display:inline-block}
 .btn.ghost{background:transparent;color:var(--tx);border:1px solid var(--line)}
 .status{color:var(--mut);font-size:14px;margin:0 0 12px}
 .grid{display:grid;gap:14px}
